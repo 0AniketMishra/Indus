@@ -9,18 +9,20 @@ import Hero from './Components/Hero';
 import Services from './Components/Services';
 import Pricing from './Components/Pricing';
 import Testimonials from './Components/Testimonials';
+import { useAuthState } from 'react-firebase-hooks/auth';
+import { auth } from '@/firebase';
 
 
 
 function Landing() {
 
-
+const [user,loading] = useAuthState(auth)
 
     return (
         <div>
-            {/* {loading ? (
+            {loading ? (
                 <Loading />
-            ) : ( */}
+            ) : (
                 <div style={{ backgroundColor: "#0a0a0a" }}>
                     <Header />
                     <Hero    />
@@ -28,7 +30,7 @@ function Landing() {
                     <Pricing />
                     <Testimonials />
                 </div>
-            {/* )} */}
+             )} 
         </div>
     )
 }

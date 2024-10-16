@@ -4,15 +4,16 @@ import React, { useState } from 'react'
 import Sidebar from './Sidebar'
 import Link from 'next/link'
 
-// import { useRouter } from 'next/navigation'
-// import { auth } from '@/firebase'
+import { useRouter } from 'next/navigation'
+import { auth } from '@/firebase'
+import { useAuthState } from 'react-firebase-hooks/auth'
 
 
 function Header() {
     const [sidebar, setSidebar] = useState(false)
 
-    // const [user, loading] = useAuthState(auth);
-    // const router = useRouter();
+    const [user, loading] = useAuthState(auth);
+    const router = useRouter();
 
 
 
