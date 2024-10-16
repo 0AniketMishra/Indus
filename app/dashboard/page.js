@@ -1,18 +1,18 @@
 "use client"
 import React from 'react'
 import { useAuthState } from 'react-firebase-hooks/auth'
-import { auth } from '../../firebase';
+
 import { useRouter } from 'next/navigation';
-import Loading from '../../Components/Loading';
-import Header from '../../Components/Header';
+import Header from '../Components/Header';
+
 
 
 function page() {
-    const [user, loading] = useAuthState(auth);
-    const router = useRouter();
+    // const [user, loading] = useAuthState(auth);
+    // const router = useRouter();
 
-    if (!user && !loading)
-        router.push("/login")
+    // if (!user && !loading)
+    //     router.push("/login")
 
 
     return (
