@@ -10,7 +10,12 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        acsent: "#ec6552",
       },
+      maxWidth: {
+        'custom': '110rem', // Example custom width
+      },
+
     },
   },
   plugins: [],
