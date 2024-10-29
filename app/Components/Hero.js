@@ -37,7 +37,7 @@ function Hero() {
 
 
           <div className=" lg:w-1/3 my-4  ">
-                  <img className=" w-[35rem] h-[35rem] invert animate-spin-slow rounded-xl" src="https://raw.githubusercontent.com/0AniketMishra/HexaGon/refs/heads/main/4a1c1d25052123856e0db2b2847cd009-removebg-preview.png" alt=""/>
+                  <img className=" w-fit  invert animate-spin-slow rounded-xl" src="https://raw.githubusercontent.com/0AniketMishra/HexaGon/refs/heads/main/4a1c1d25052123856e0db2b2847cd009-removebg-preview.png" alt=""/>
        
           </div>
           </div>
