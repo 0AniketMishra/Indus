@@ -7,7 +7,7 @@ function Hero() {
           <div
               className=" w-full px-4 sm:mt-12 items-center sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28 flex gap-3 lg:flex-justify lg:flex flex-col lg:flex-row">
               <div className="sm:text-center lg:text-left lg:w-2/3">
-                  <h1 className="text-4xl tracking-tight font-extrabold text-gray-800 sm:text-5xl md:text-6xl">
+                  <h1 className="text-4xl tracking-tight max-w-[80%] font-extrabold text-gray-800 sm:text-5xl md:text-6xl">
                       <span className="block xl:inline text-white ">Get Intuition On Things</span>
                       
                       <span className="block xl:inline text-acsent" > Yet to Happen</span>
@@ -36,9 +36,9 @@ function Hero() {
               </div>
 
 
-          <div className=" lg:w-1/3 my-4">
-                  <img className=" w-full  rounded-xl" src="https://raw.githubusercontent.com/0AniketMishra/Twitter/refs/heads/main/3776.jpg_wh860.jpg" alt=""/>
-      
+          <div className=" lg:w-1/3 my-4  ">
+                  <img className=" w-[35rem] h-[35rem] invert animate-spin-slow rounded-xl" src="https://raw.githubusercontent.com/0AniketMishra/HexaGon/refs/heads/main/4a1c1d25052123856e0db2b2847cd009-removebg-preview.png" alt=""/>
+       
           </div>
           </div>
 

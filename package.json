@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "firebase": "^10.14.1",
+    "kollavarsham": "^2.5.4",
+    "nepali-calendar-js": "^1.0.4",
     "next": "14.2.15",
     "react": "^18",
     "react-dom": "^18",

@@ -10,11 +10,11 @@ function Sidebar() {
     }
 
   return (
-      <div><div className="lg:hidden fixed bg-background top-16 h-full animate-slideIn  flex-col bg-clip-border  text-gray-700  w-full max-w-[20rem] pr-0 pl-1 pt-2 pb-2 shadow-xl shadow-blue-gray-900/5">
+      <div><div className="lg:hidden fixed  bg-background pt-24 h-full animate-slideIn  flex-col bg-clip-border  text-gray-700  w-full  pr-0 pl-1 pt-2 pb-2 shadow-xl shadow-blue-gray-900/5">
           <div className="mb-2 p-2">
               {/* <h5 className="block antialiased tracking-normal font-sans text-xl font-semibold leading-snug text-white">Shop By Category</h5> */}
           </div>
-          <nav className="flex flex-col gap-3 min-w-[240px]  font-sans text-base font-normal text-white">
+          <nav className="flex flex-col  gap-4 min-w-[240px]  p-3 font-sans text-base font-normal text-white">
               <Link href="/" tabindex="0" className="flex items-center w-[90%] p-3 rounded-lg text-start leading-tight transition-all hover:bg-gray-900 outline-none ">
                   <div className="grid place-items-center mr-4">
                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">

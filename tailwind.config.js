@@ -13,8 +13,11 @@ module.exports = {
         acsent: "#ec6552",
       },
       maxWidth: {
-        'custom': '110rem', // Example custom width
+        'custom': '120rem', // Example custom width
       },
+      animation: {
+        'spin-slow': 'spin 35s linear infinite', // Customize the duration as needed 
+        },
 
     },
   },

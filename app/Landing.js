@@ -11,6 +11,7 @@ import Pricing from './Components/Pricing';
 import Testimonials from './Components/Testimonials';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { auth } from '@/firebase';
+import Pricing2 from './Components/Pricing2';
 
 
 
@@ -19,20 +20,21 @@ function Landing() {
 const [user,loading] = useAuthState(auth)
 
     return (
-        <div>
+        <dfv>
             {loading ? (
                 <Loading />
             ) : (
                 <div style={{ backgroundColor: "#0a0a0a" }}>
                     <Header />
-                    <Hero    />
+                    <Hero />
                     <Services />
-                    <Pricing />
+                    
+                    <Pricing/>
                     <Testimonials />
                 </div>
              )} 
-        </div>
-    )
+        </dfv>
+    )  
 }
 
-export default Landing
+export default Landing 

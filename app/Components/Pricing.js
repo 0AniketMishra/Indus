@@ -14,7 +14,7 @@ function Pricing() {
               </div>
               <div class="flex flex-wrap -m-4" bis_skin_checked="1">
                   <div class="p-4 xl:w-1/4 md:w-1/2 w-full" bis_skin_checked="1">
-                      <div class="h-full p-6 rounded-2xl border-2 border-gray-700 flex flex-col relative overflow-hidden" bis_skin_checked="1">
+                      <div class="h-full p-6 rounded-2xl border-2 border-gray-700 flex flex-col   overflow-hidden" bis_skin_checked="1">
                           <h2 class="text-sm tracking-widest text-gray-400 title-font mb-1 font-medium">START</h2>
                           <h1 class="text-5xl text-white pb-4 mb-4 border-b border-gray-800 leading-none">Free</h1>
                           <p class="flex items-center text-gray-400 mb-2">
@@ -47,8 +47,8 @@ function Pricing() {
                       </div>
                   </div>
                   <div class="p-4 xl:w-1/4 md:w-1/2 w-full" bis_skin_checked="1">
-                      <div class="h-full p-6 rounded-2xl border-2 border-acsent flex flex-col relative overflow-hidden" bis_skin_checked="1">
-                          <span class="bg-acsent text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">POPULAR</span>
+                      <div class="h-full p-6 rounded-2xl border-2 border-acsent flex flex-col   overflow-hidden" bis_skin_checked="1">
+                          
                           <h2 class="text-sm tracking-widest text-gray-400 title-font mb-1 font-medium">PRO</h2>
                           <h1 class="text-5xl text-white leading-none flex items-center pb-4 mb-4 border-b border-gray-800">
                               <span>$38</span>
@@ -91,7 +91,7 @@ function Pricing() {
                       </div>
                   </div>
                   <div class="p-4 xl:w-1/4 md:w-1/2 w-full" bis_skin_checked="1">
-                      <div class="h-full p-6 rounded-2xl border-2 border-gray-700 flex flex-col relative overflow-hidden" bis_skin_checked="1">
+                      <div class="h-full p-6 rounded-2xl border-2 border-gray-700 flex flex-col   overflow-hidden" bis_skin_checked="1">
                           <h2 class="text-sm tracking-widest text-gray-400 title-font mb-1 font-medium">BUSINESS</h2>
                           <h1 class="text-5xl text-white leading-none flex items-center pb-4 mb-4 border-b border-gray-800">
                               <span>$56</span>
@@ -141,7 +141,7 @@ function Pricing() {
                       </div>
                   </div>
                   <div class="p-4 xl:w-1/4 md:w-1/2 w-full" bis_skin_checked="1">
-                      <div class="h-full p-6 rounded-2xl border-2 border-gray-700 flex flex-col relative overflow-hidden" bis_skin_checked="1">
+                      <div class="h-full p-6 rounded-2xl border-2 border-gray-700 flex flex-col   overflow-hidden" bis_skin_checked="1">
                           <h2 class="text-sm tracking-widest text-gray-400 title-font mb-1 font-medium">SPECIAL</h2>
                           <h1 class="text-5xl text-white leading-none flex items-center pb-4 mb-4 border-b border-gray-800">
                               <span>$72</span>
