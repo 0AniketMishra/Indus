@@ -52,7 +52,7 @@ function Header() {
               <Sidebar />
           )}
 
-          <div class="lg:hidden md:hidden mx-0 ">
+          <div class="lg:hidden md:hidden ">
               <div class="flex  title-font font-medium items-center justify-between text-white mb-4 md:mb-0 px-5 py-3 bg-background/95 backdrop-blur-xl supports-[backdrop-filter]:bg-background/60">
                   
 
