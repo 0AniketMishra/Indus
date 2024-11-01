@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 function Sidebar3() {
@@ -29,7 +30,7 @@ function Sidebar3() {
 
           <nav className="flex-1 space-y-2">
               
-                  <button
+                  <Link href="/"
                       
                       className="flex items-center gap-3 w-full px-3 py-2 rounded-lg transition-colors bg-orange-500/10 text-orange-400"
                   >
@@ -38,7 +39,7 @@ function Sidebar3() {
                   </svg>
 
                       <span>Home</span>
-                  </button>
+                  </Link>
 
 
                    <button
